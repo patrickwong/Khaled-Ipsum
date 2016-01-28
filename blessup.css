@@ -39,6 +39,11 @@ p {
   line-height: 26px;
 }
 
+#output {
+  max-width: 580px;
+  margin: 0 auto;
+}
+
 .header {
   height: 50px;
 }

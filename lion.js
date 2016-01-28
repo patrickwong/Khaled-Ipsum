@@ -24,16 +24,27 @@ generate = function() {
 maxParagraphLength = function() {
   // customize these to add more or less variance to paragraph length
   var baseLength = 400;
-  var variance = 0.5;
+  var threshold = 0.5;
 
-  var randomizedLength = parseInt(Math.random() * variance * baseLength) + baseLength;
+  var randomizedLength = parseInt(Math.random() * threshold * baseLength) + baseLength;
   return randomizedLength;
+}
+
+// On page load
+document.addEventListener('DOMContentLoaded', function() {
+  generate();
+}, false)
+
+// on change
+function changeEventHandler(event) {
+  generate();
 }
 
 // add phrases here
 
 var phrases = [
-  'Lion.',
-  'Liiiooooonnnn.',
-  'Key to more success is clean heart and clean face.'
+  'Bless up.',
+  'They don&rsquo;t want us to win',
+  'Key to more success is clean heart and clean face.',
+  'Lion!'
 ];
