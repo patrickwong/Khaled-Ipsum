@@ -1,0 +1,138 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  color: #1A1917;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 110px;
+  line-height: 110px;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Karla", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+p {
+  font-family: "Playfair Display", sans-serif;
+  color: #1A1917;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.header {
+  height: 50px;
+}
+
+.body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+
+.hero {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  background: url("khaled.jpg") no-repeat;
+  background-size: cover;
+  padding: 30px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.hero span {
+  display: flex;
+  flex: 1;
+  border: 8px solid rgba(255, 255, 255, 0.9);
+  align-items: center;
+}
+
+.main {
+  flex: 1.25;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  overflow: auto;
+}
+
+#select-style {
+  background: url("caret.svg") no-repeat right 14px center;
+  border: 1px solid #C7C7C7;
+  width: 210px;
+  height: 40px;
+  padding: 0;
+  margin: 0 auto 40px auto;
+}
+
+#select-style select {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding-left: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  outline: none;
+  text-transform: uppercase;
+  font-family: Karla, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.wrapper {
+  display: flex;
+  min-height: -webkit-min-content;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  padding: 100px;
+  width: 100%;
+  height: 100%;
+  /*background: red;*/
+}
+
+.box div {
+    width: 100%;
+}
+
+#divider {
+  height: 2px;
+  width: 80px;
+  background: #1A1917;
+  display: block;
+  margin: 40px auto;
+}
