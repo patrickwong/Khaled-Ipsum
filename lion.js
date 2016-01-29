@@ -14,7 +14,7 @@ generate = function() {
     output += paragraph;
   }
 
-  $('#output').fadeOut(0).html(output).fadeIn(450);
+  $('#output').html(output);
 }
 
 // generates randomized paragraph max length

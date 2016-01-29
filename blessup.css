@@ -45,6 +45,7 @@ p {
   color: #1A1917;
   font-size: 18px;
   line-height: 26px;
+  animation: fadeIn 0.8s;
 }
 
 #output {
@@ -152,6 +153,16 @@ p {
   background: #1A1917;
   display: block;
   margin: 40px auto;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 @media (min-height: 1100px) {
