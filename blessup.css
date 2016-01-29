@@ -75,6 +75,7 @@ p {
   max-width: 600px;
   background: url("khaled.jpg") no-repeat;
   background-size: cover;
+  background-position: left;
   padding: 30px;
   box-sizing: border-box;
   color: #fff;
@@ -158,8 +159,8 @@ p {
 
 @keyframes fadeIn {
   0% {
-    opacity: 0.25;
-    transform: scale(.95);
+    opacity: 0.1;
+    transform: scale(.97);
   }
   100% {
     opacity: 100%;
@@ -179,5 +180,96 @@ p {
 @media (min-height: 1100px) {
   .hero {
     max-width: 800px;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 100px;
+    line-height: 100px;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 1060px) {
+  .box {
+    padding: 100px 60px;
+  }
+}
+
+@media (max-width: 970px) {
+  h1 {
+    font-size: 90px;
+    line-height: 90px;
+    transition: 0.2s;
+  }
+  .hero {
+    background-position: center;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 840px) {
+  h1 {
+    font-size: 70px;
+    line-height: 70px;
+    transition: 0.2s;
+  }
+  .box {
+    padding: 100px 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .body {
+    display: block;
+  }
+  .hero {
+    max-width: none;
+    height: 100vh;
+    background-position: left;
+    transition: 0.2s;
+  }
+  h1 {
+    font-size: 110px;
+    line-height: 110px;
+  }
+  .box {
+    padding: 50px 100px;
+  }
+}
+
+@media (max-width: 490px) {
+  h1 {
+    font-size: 90px;
+    line-height: 90px;
+    transition: 0.2s;
+  }
+  .box {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 70px;
+    line-height: 70px;
+    transition: 0.2s;
+  }
+  .box {
+    padding: 30px;
+  }
+  .hero {
+    background-position: -20px 0;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 60px;
+    line-height: 60px;
+    transition: 0.2s;
   }
 }
