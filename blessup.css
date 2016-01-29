@@ -4,6 +4,14 @@ html, body {
   color: #1A1917;
 }
 
+html, body, #select-style select, #select-style select:focus {
+  cursor: url("key.png"), auto;
+  cursor: -webkit-image-set(
+  url('key.png') 1x,
+  url('key@2x.png') 2x
+), auto;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
@@ -98,6 +106,11 @@ p {
   margin: 0 auto 40px auto;
 }
 
+#select-style:hover {
+  border-color: #1A1917;
+  transition: 0.2s;
+}
+
 #select-style select {
   display: block;
   width: 100%;
@@ -127,7 +140,6 @@ p {
   padding: 100px;
   width: 100%;
   height: 100%;
-  /*background: red;*/
 }
 
 .box div {
@@ -140,4 +152,10 @@ p {
   background: #1A1917;
   display: block;
   margin: 40px auto;
+}
+
+@media (min-height: 1100px) {
+  .hero {
+    max-width: 800px;
+  }
 }

@@ -1,5 +1,4 @@
-// generates the paragraphs
-
+// generates paragraphs
 generate = function() {
   var output = '';
   var quantity = parseInt($('#quantity').val());
@@ -15,33 +14,35 @@ generate = function() {
     output += paragraph;
   }
 
-  $('#output').html(output);
+  $('#output').fadeOut(0).html(output).fadeIn(450);
 }
 
-
-// generates a randomized paragraph max length
-
+// generates randomized paragraph max length
 maxParagraphLength = function() {
-  // customize these to add more or less variance to paragraph length
   var baseLength = 400;
   var threshold = 0.5;
-
   var randomizedLength = parseInt(Math.random() * threshold * baseLength) + baseLength;
   return randomizedLength;
 }
 
-// On page load
+// page load
 document.addEventListener('DOMContentLoaded', function() {
   generate();
+  prependText();
 }, false)
 
-// on change
+// on select change
 function changeEventHandler(event) {
   generate();
 }
 
-// add phrases here
+// prepend text to first paragraph
+function prependText() {
+  var firstParagraph = document.querySelector("p:first-child");
+  firstParagraph.innerHTML = "Lorem Khaled Ipsum is a major key to success." + firstParagraph.innerHTML;
+}
 
+// major keys
 var phrases = [
   'Bless up.',
   'They don&rsquo;t want us to win',
