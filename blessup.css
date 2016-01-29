@@ -180,6 +180,7 @@ p {
   }
 }
 
+/*Tall screens*/
 @media (min-height: 1100px) {
   .hero {
     max-width: none;
@@ -201,6 +202,9 @@ p {
     line-height: 140px;
     transition: 0.2s;
   }
+  .hero {
+    background-position: -100px 0;
+  }
 }
 
 @media (max-width: 1200px) and (min-height: 1100px) {
@@ -215,6 +219,21 @@ p {
   }
 }
 
+@media (max-width: 1000px) and (min-height: 1100px) {
+  body .hero {
+    background-position: -120px 0;
+  }
+}
+
+@media (max-width: 800px) and (min-height: 1100px) {
+  body h1 {
+    font-size: 100px;
+    line-height: 100px;
+    transition: 0.2s;
+  }
+}
+
+/*Short screens*/
 @media (max-width: 1200px) {
   h1 {
     font-size: 100px;
