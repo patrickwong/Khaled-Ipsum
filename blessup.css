@@ -21,6 +21,7 @@ h1 {
   text-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
   width: 100%;
   text-align: center;
+  animation: scaleIn 1s;
 }
 
 h2 {
@@ -157,11 +158,21 @@ p {
 
 @keyframes fadeIn {
   0% {
-    opacity: 0;
-    transform: translateY(-12px);
+    opacity: 0.25;
+    transform: scale(.95);
   }
   100% {
     opacity: 100%;
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
