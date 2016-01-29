@@ -97,7 +97,8 @@ p {
 .content {
   display: flex;
   flex: 1;
-  overflow: auto;
+  overflow: scroll;
+  background: #F0F1F2;
 }
 
 #select-style {
@@ -134,15 +135,17 @@ p {
 
 .wrapper {
   display: flex;
+  flex: 1;
+  flex-direction: column;
   min-height: -webkit-min-content;
   width: 100%;
 }
 
 .box {
   display: flex;
+  flex: 1;
+  background: #FFF;
   padding: 100px;
-  width: 100%;
-  height: 100%;
 }
 
 .box div {
@@ -179,12 +182,40 @@ p {
 
 @media (min-height: 1100px) {
   .hero {
-    max-width: 800px;
+    max-width: none;
     transition: 0.2s;
   }
 }
 
-@media (max-width: 1100px) {
+@media (min-width: 1450px) and (min-height: 1100px) {
+  h1 {
+    font-size: 180px;
+    line-height: 180px;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 1700px) and (min-height: 1100px) {
+  h1 {
+    font-size: 140px;
+    line-height: 140px;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 1200px) and (min-height: 1100px) {
+  body h1 {
+    font-size: 120px;
+    line-height: 120px;
+    transition: 0.2s;
+  }
+  .main {
+    flex: 0.75;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 1200px) {
   h1 {
     font-size: 100px;
     line-height: 100px;
@@ -205,12 +236,16 @@ p {
     transition: 0.2s;
   }
   .hero {
-    background-position: center;
+    background-position: -10px 0;
     transition: 0.2s;
   }
 }
 
 @media (max-width: 840px) {
+  .hero {
+    background-position: -50px 0;
+    transition: 0.2s;
+  }
   h1 {
     font-size: 70px;
     line-height: 70px;
@@ -228,7 +263,7 @@ p {
   .hero {
     max-width: none;
     height: 100vh;
-    background-position: left;
+    background-position: center;
     transition: 0.2s;
   }
   h1 {
@@ -241,6 +276,10 @@ p {
 }
 
 @media (max-width: 490px) {
+  .hero {
+    background-position: -20px 0;
+    transition: 0.2s;
+  }
   h1 {
     font-size: 90px;
     line-height: 90px;
@@ -252,6 +291,10 @@ p {
 }
 
 @media (max-width: 420px) {
+  .hero {
+    background-position: -50px 0;
+    transition: 0.2s;
+  }
   h1 {
     font-size: 70px;
     line-height: 70px;
@@ -261,12 +304,16 @@ p {
     padding: 30px;
   }
   .hero {
-    background-position: -20px 0;
+    background-position: left;
     transition: 0.2s;
   }
 }
 
 @media (max-width: 320px) {
+  .hero {
+    background-position: left;
+    transition: 0.2s;
+  }
   h1 {
     font-size: 60px;
     line-height: 60px;
