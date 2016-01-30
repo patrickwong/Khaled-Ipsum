@@ -45,7 +45,7 @@ function prependText() {
 // major keys
 var phrases = [
   'Bless up.',
-  'They don&rsquo;t want us to win',
+  'They don&rsquo;t want us to win.',
   'Key to more success is clean heart and clean face.',
   'Lion!'
 ];

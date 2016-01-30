@@ -41,6 +41,23 @@ h3 {
   margin: 10px 0;
 }
 
+a {
+  display: block;
+  text-align: center;
+  font-family: "Karla", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  text-align: center;
+  padding: 30px 0 100px 0;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 1);
+  transition: 0.1s;
+}
+
 p {
   font-family: "Playfair Display", sans-serif;
   color: #1A1917;
@@ -81,7 +98,7 @@ p {
   color: #fff;
 }
 
-.hero span {
+.hero div {
   display: flex;
   flex: 1;
   border: 8px solid rgba(255, 255, 255, 0.9);
@@ -98,7 +115,6 @@ p {
   display: flex;
   flex: 1;
   overflow: scroll;
-  background: #F0F1F2;
 }
 
 #select-style {
@@ -143,9 +159,8 @@ p {
 
 .box {
   display: flex;
-  flex: 1;
   background: #FFF;
-  padding: 100px;
+  padding: 100px 100px 0 100px;
 }
 
 .box div {
@@ -230,6 +245,20 @@ p {
     font-size: 100px;
     line-height: 100px;
     transition: 0.2s;
+  }
+}
+
+@media (max-width: 700px) and (min-height: 1100px) {
+  body .hero {
+    max-height: 800px;
+    background-position: center;
+  }
+}
+
+@media (max-width: 500px) and (min-height: 1100px) {
+  body h1 {
+    font-size: 80px;
+    line-height: 80px;
   }
 }
 
