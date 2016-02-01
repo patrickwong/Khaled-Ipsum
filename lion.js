@@ -51,8 +51,8 @@ var majorKeys = [
   'Cloth talk.',
   'They don&rsquo;t want us to eat.',
   'Special cloth alert.',
-  'Egg whites, chicken sausage, wheat toast, water.',
-  'Celebrate success right, the only way, Apple.',
+  'Egg whites, turkey sausage, wheat toast, water. Of course they don&rsquo;t want us to eat our breakfast, so we are going to enjoy our breakfast.',
+  'Celebrate success right, the only way, apple.',
   'You smart, you loyal, you a genius.',
   'Hammock talk come soon.',
   'Give thanks to the most high.',
@@ -70,6 +70,14 @@ var majorKeys = [
   'In life there will be road blocks but we will over come it.',
   'Wraith talk.',
   'Eliptical talk.',
+  'To succeed you must believe. Life is what you make it, so let&rsquo;s make it.',
+  'To be successful you&rsquo;ve got to work hard, to make history, simple, you&rsquo;ve got to make it.',
+  'A major key, never panic. Don&rsquo;t panic, when it gets crazy and rough, don&rsquo;t panic, stay calm.',
+  'Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I&rsquo;m never giving up, I&rsquo;m just getting started.',
   'You see that bamboo behind me though, you see that bamboo? Ain&rsquo;t nothin&rsquo; like bamboo.',
+  'In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key.',
+  'Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel.',
+  'Find peace, life is like a water fall, you&rsquo;ve gotta flow.',
+  'Chef'
   'Lion!'
 ];
