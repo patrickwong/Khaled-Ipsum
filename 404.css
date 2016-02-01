@@ -1,0 +1,47 @@
+div {
+  padding: 0 20px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 110px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+a {
+  display: block;
+  font-family: Karla, "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 45px auto 60px auto;
+  color: #000;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+  max-height: 350px;
+  border-radius: 8px;
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 40px;
+    margin: 20px auto;
+  }
+
+  a{
+    font-size: 16px;
+    margin: 20px auto 30px auto;
+  }
+
+  img {
+  }
+}
