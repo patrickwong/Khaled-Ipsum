@@ -78,6 +78,6 @@ var majorKeys = [
   'In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key.',
   'Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel.',
   'Find peace, life is like a water fall, you&rsquo;ve gotta flow.',
-  'Chef',
+  'Let&rsquo;s see what Chef Dee got that they don&rsquo;t want us to eat.',
   'Lion!'
 ];
