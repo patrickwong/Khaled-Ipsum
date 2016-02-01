@@ -7,7 +7,7 @@ html, body {
 html, body, #select-style select, #select-style select:focus {
   cursor: url("key.png"), auto;
   cursor: -webkit-image-set(
-  url('key.png') 1x,
+  url('key@1x.png') 1x,
   url('key@2x.png') 2x
 ), auto;
 }

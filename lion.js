@@ -6,8 +6,8 @@ generate = function() {
   for(var i = 0; i < quantity; i++) {
     var paragraph = '<p>'
     while (paragraph.length <= maxParagraphLength()) {
-      var index = Math.floor(Math.random() * phrases.length);
-      paragraph += (' ' + phrases[index]);
+      var index = Math.floor(Math.random() * majorKeys.length);
+      paragraph += (' ' + majorKeys[index]);
     };
 
     paragraph += '</p>';
@@ -43,7 +43,7 @@ function prependText() {
 }
 
 // major keys
-var phrases = [
+var majorKeys = [
   'Bless up.',
   'They don&rsquo;t want us to win.',
   'Key to more success is clean heart and clean face.',
