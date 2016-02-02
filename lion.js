@@ -79,5 +79,6 @@ var majorKeys = [
   'Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel.',
   'Find peace, life is like a water fall, you&rsquo;ve gotta flow.',
   'Let&rsquo;s see what Chef Dee got that they don&rsquo;t want us to eat.',
-  'Lion!'
+  'Lion!',
+  'I\'m up to something.'
 ];
