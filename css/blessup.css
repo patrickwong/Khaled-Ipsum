@@ -5,10 +5,10 @@ html, body {
 }
 
 html, body, #select-style select, #select-style select:focus {
-  cursor: url("key.png"), auto;
+  cursor: url("../img/key.png"), auto;
   cursor: -webkit-image-set(
-  url('key@1x.png') 1x,
-  url('key@2x.png') 2x
+  url('../img/key@1x.png') 1x,
+  url('../img/key@2x.png') 2x
 ), auto;
 }
 
@@ -90,7 +90,7 @@ p {
   flex-direction: column;
   width: 100%;
   max-width: 600px;
-  background: url("khaled.jpg") no-repeat;
+  background: url("../img/khaled.jpg") no-repeat;
   background-size: cover;
   background-position: left;
   padding: 30px;
@@ -118,7 +118,7 @@ p {
 }
 
 #select-style {
-  background: url("caret.svg") no-repeat right 14px center;
+  background: url("../img/caret.svg") no-repeat right 14px center;
   border: 1px solid #C7C7C7;
   width: 210px;
   height: 40px;

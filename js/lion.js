@@ -61,7 +61,7 @@ var majorKeys = [
   'The key to more success is to have a lot of pillows.',
   'The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key.',
   'Watch your back, but more importantly when you get out the shower, dry your back, it&rsquo;s a cold world out there.',
-  'It&rsquo;s on you how you want to live our life. Everyone has a choice. I pick my choice, squeaky clean.',
+  'It&rsquo;s on you how you want to live your life. Everyone has a choice. I pick my choice, squeaky clean.',
   'How&rsquo;s business? Boomin.',
   'They never said winning was easy. Some people can&rsquo;t handle success, I can.',
   'They will try to close the door on you, just open it.',
