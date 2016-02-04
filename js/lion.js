@@ -104,5 +104,6 @@ var majorKeys = [
   'Always remember in the jungle there&rsquo;s a lot of they in there, after you overcome they, you will make it to paradise.',
   'I&rsquo;m giving you cloth talk, cloth. Special cloth alert, cut from a special cloth.',
   'Look at the sunset, life is amazing, life is beautiful, life is what you make it.',
-  'The first of the month is coming, we have to get money, we have no choice. It cost money to eat and they don&rsquo;t want you to eat.'
+  'The first of the month is coming, we have to get money, we have no choice. It cost money to eat and they don&rsquo;t want you to eat.',
+  'The oatmeal is a vibe, oatmeal is a major key!'
 ];
