@@ -134,6 +134,7 @@ p {
 #select-style select {
   display: block;
   width: 100%;
+  height: 100%;
   margin: 0;
   padding-left: 16px;
   -webkit-appearance: none;
